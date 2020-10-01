@@ -1,1 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
+.box {
+    width: 100%;
+    overflow-y: auto; 
+    .full {
+        height: calc(100vh - 128px);
+    }
+}

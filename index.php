@@ -3,8 +3,8 @@ include __DIR__ . '/partials/templates/header.php';
 include __DIR__ . '/partials/home/server.php';
 
 ?>
-
-        <div class="container">
+    <div class="box">
+        <div class="container full">
             <table class="table">
                 <thead>
                     <tr>
@@ -35,6 +35,7 @@ include __DIR__ . '/partials/home/server.php';
                 </tbody>
             </table>
         </div>
+    </div>
 
 <?php
 include __DIR__ . '/partials/templates/footer.php';

@@ -10899,3 +10899,12 @@ a.text-dark:focus {
   }
 }
 
+.box {
+  width: 100%;
+  overflow-y: auto;
+}
+
+.box .full {
+  height: calc(100vh - 128px);
+}
+
