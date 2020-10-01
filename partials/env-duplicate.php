@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost";
+$servername = "localhost";      //Duplicato di env per github
 $username = "username";
 $password = "password";
 $dbname = "dbname";

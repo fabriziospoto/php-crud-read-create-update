@@ -1,5 +1,5 @@
 <?php
-include __DIR__ . '/env.php';
+include __DIR__ . '/env.php';   //Collegamento a env
 
 $conn = new mysqli($servername, $username, $password,
 $dbname);

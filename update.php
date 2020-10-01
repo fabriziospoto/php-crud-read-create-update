@@ -1,13 +1,13 @@
 <?php
-include __DIR__ . '/partials/templates/header.php';
-include __DIR__ . '/partials/update/server-update.php';
+include __DIR__ . '/partials/templates/header.php';   //Includo header
+include __DIR__ . '/partials/update/server-update.php';   //Includo server
  ?>
 <div class="box">
     <div class="container full">
         <form action="partials/update/server-update-edit.php" method="post">
             <div class="form-group">
                 <label for="roomNumber">Numero della stanza</label>
-                <input type="text" class="form-control" name="roomNumber" value="<?php echo $row['room_number'] ?>" id="roomNumber">
+                <input type="text" class="form-control" name="roomNumber" value="<?php echo $row['room_number'] ?>" id="roomNumber">    <!-- Uso php per stampare dati che modificherò -->
             </div>
             <div class="form-group">
                 <label for="floor">Floor</label>
@@ -28,6 +28,6 @@ include __DIR__ . '/partials/update/server-update.php';
 </div>
 
  <?php
- include __DIR__ . '/partials/templates/footer.php';
+ include __DIR__ . '/partials/templates/footer.php';   //Includo footer
 
  ?>

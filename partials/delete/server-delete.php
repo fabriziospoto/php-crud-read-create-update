@@ -1,6 +1,6 @@
 <?php
-include __DIR__ . '/../database.php';
-include __DIR__ . '/../functions.php';
+include __DIR__ . '/../database.php';   //Includo database
+include __DIR__ . '/../functions.php';  //Includo functions
 
 if(empty($_POST['id'])){
     die('nessun id');
@@ -8,4 +8,4 @@ if(empty($_POST['id'])){
 
 $id = $_POST['id'];
 
-removeId($conn,'stanze',$id,$basepath);
+removeId($conn,'stanze',$id,$basepath);   //Funzione remove in function
